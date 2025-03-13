@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, "sans-serif";
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(images/pexels-fmaderebner-745988.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.Text-box {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Roboto", Arial, "sans-serif";
+}
+.Text-box h1 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.Viennoiseries {
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.Text-box button {
+  padding: 15px 30px;
+  text-decoration: none;
+  border: none;
+  background-color: rgb(228, 35, 35);
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.Text-box button:hover {
+  border: 1px solid white;
+  background-color: rgb(24, 22, 22);
+  transition: 1s;
+}
+.contenair {
+  background-color: #fef2e6;
+}
+.avantager-title {
+  color: #111111;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+
+.Avantager {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  background-color: #fef2e6;
+  padding-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  align-items: center;
+  gap: 60px;
+}
+.avantage-column img {
+  width: 400px;
+  border-radius: 80% 0%;
+}
+.avantage-column1 img {
+  width: 400px;
+  border-radius: 0% 80%;
+}
+.super {
+  font-size: 50px;
+  color: #e86a1c;
+  margin-bottom: 10px;
+}
+.pare {
+  color: #111111;
+  font-size: large;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.avantage-row {
+  text-align: start;
+  width: 430px;
+}
+.Avantager-2 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  background-color: white;
+  padding-bottom: 50px;
+}
+.Avantager-3 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  background-color: #fef2e6;
+  padding-bottom: 50px;
+}
+.promo {
+  background-color: #332e29;
+  text-align: center;
+  padding: 60px;
+}
+.promo h1 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 20px;
+}
+.promo button {
+  padding: 20px 40px;
+  font-size: larger;
+  cursor: pointer;
+}
+.container-image {
+  margin: 0 auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+.container-image img {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+}
+.catologue {
+  font-family: "Roboto", Arial, "sans-serif";
+  background-color: #f1860e;
+}
+.catologue h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 45px;
+  color: white;
+}
+.Tarifs {
+  background-color: #332e29;
+  font-family: "Roboto", Arial, "sans-serif";
+}
+.title-tarif {
+  text-align: center;
+  padding: 50px;
+  font-size: 45px;
+  color: white;
+}
+.Container-tarif {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+.tarif-row {
+  width: 400px;
+  background-color: #3c362f;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  border-radius: 10px;
+}
+.tarif-row p {
+  color: red;
+}
+.Avantager-4 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.Box-img {
+  min-height: 80vh;
+  width: 100%;
+  background-image: url(images/xxxx.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  font-family: "Roboto", Arial, "sans-serif";
+}
+.box-text {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  color: white;
+  padding-top: 50px;
+}
+.box-text h1 {
+  font-size: 55px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.box-text p {
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+.box-row {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.box-title h1 {
+  font-size: 50px;
+  color: #f1860e;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.box-title h2 {
+  color: #fff4e8;
+}
+.formulaire {
+  font-family: "Roboto", Arial, "sans-serif";
+  background-color: #e86a1c;
+  padding: 50px 50px;
+}
+.form-display {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 100px;
+  align-items: center;
+}
+.form-texte {
+  max-width: 50%;
+}
+.form-texte h1 {
+  font-size: 55px;
+  color: white;
+  padding-bottom: 20px;
+}
+.form-texte p {
+  padding-bottom: 25px;
+  color: #ffffd8;
+  font-size: 17px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.name-field {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.name-field div {
+  display: flex;
+  flex-direction: column;
+}
+.name-field div input {
+  width: 200px;
+}
+label {
+  color: white;
+  padding-bottom: 5px;
+}
+input {
+  padding: 10px 20px;
+  outline: 0;
+  font-size: 15px;
+}
+textarea {
+  margin-bottom: 10px;
+  outline: 0;
+  padding: 10px;
+  font-size: 15px;
+}
+button {
+  padding: 15px 30px;
+  outline: 0;
+}
+.avantage-form img {
+  width: 450px;
+  border-radius: 0% 80%;
+}
+footer {
+  background-color: #333333;
+  text-align: center;
+  color: #fff2ca;
+}
+footer p {
+  padding-bottom: 50px;
+  padding: 50px 50px;
+  font-size: 15px;
+}
+.pp {
+  font-size: 12px;
+}
+u {
+  color: #336aba;
+}
